@@ -22,7 +22,7 @@ Movie list
 
 Movie details
 
-<img width="373" alt="image" src="https://github.com/user-attachments/assets/540650a0-6b58-415e-b4e0-ddf1340ac72d">
+<img width="378" alt="image" src="https://github.com/user-attachments/assets/ce8f193d-d496-4643-b41e-46d6518f7fc1">
 
 
 Add new movie fragment
