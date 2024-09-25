@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="deadpool_and_wolverine">true</bool>
+    <bool name="gladiator">false</bool>
+    <bool name="the_dark_knight">true</bool>
+    <bool name="spider_man_into_the_spider_verse">false</bool>
+    <bool name="the_lord_of_the_rings">true</bool>
+    <bool name="inside_out">false</bool>
+    <bool name="real_steel">true</bool>
+    <bool name="grown_ups">false</bool>
+    <bool name="avengers_infinity_war">true</bool>
+    <bool name="the_matrix">false</bool>
+    <bool name="mission_impossible">true</bool>
+    <bool name="transformers">false</bool>
+    <bool name="top_gun_maverick">true</bool>
+    <bool name="anger_management">false</bool>
+    <bool name="jurassic_park">true</bool>
+    <bool name="dune_part_two">false</bool>
+    <bool name="up">true</bool>
+</resources>

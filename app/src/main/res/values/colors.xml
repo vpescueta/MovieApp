@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--    color combination 1-->
+    <color name="sky_blue">#CEE6F2</color>
+    <color name="peach_1">#E9B796</color>
+    <color name="peach_2">#E3867D</color>
+    <color name="ruby_red">#962E2A</color>
+    <!--    color combination 2-->
+    <color name="october_mist">#B7B9A8</color>
+    <color name="sandy_nude">#D1B5A3</color>
+    <color name="tangerine_orange">#E36858</color>
+    <color name="black_accent_2">#0C0D0D</color>
+</resources>

@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="et_home_hint_search">Search movies</string>
+    <string name="tv_home_featured_movies">Featured Movies\n</string>
+    <string name="iv_recycler_image_desc">Image description</string>
+    <string name="tv_movie_info_default_year">0000</string>
+    <string name="btn_movie_info_search_more">Back to Home</string>
+    <string name="tv_home_movie_list">Movie List</string>
+    <string name="fab_home_add_movie">Add Movie</string>
+    <string name="tv_movie_info_imdb_header">"imdb: "</string>
+    <string name="tv_movie_info_type_header">"Genre: "</string>
+    <string name="tv_movie_info_default_type">NA</string>
+    <string name="tv_movie_info_year_header">"Year: "</string>
+    <string name="tv_movie_info_default_imdb">NA</string>
+    <string name="list_of_movie_match">List of Movie Match</string>
+
+
+    <string-array name="movie_titles">
+        <item>Kung Fu Panda</item>
+        <item>Deadpool and Wolverine</item>
+        <item>Gladiator</item>
+        <item>The Dark Knight</item>
+        <item>Spider-Man</item>
+        <item>The Lord of the Rings</item>
+        <item>Inside Out</item>
+        <item>Real Steel</item>
+        <item>Grown Ups</item>
+        <item>Avengers: Infinity War</item>
+        <item>The Matrix</item>
+        <item>Mission: Impossible</item>
+        <item>Transformers</item>
+        <item>Top Gun: Maverick</item>
+        <item>Cars</item>
+        <item>Jurassic Park</item>
+        <item>Dune: Part Two</item>
+        <item>Up</item>
+        <item>Pacific Rim</item>
+        <item>Tomb Raider</item>
+        <item>Jaiea Discovery Channel</item>
+    </string-array>
+
+    <string-array name="movie_years">
+        <item>2008</item>
+        <item>2024</item>
+        <item>2000</item>
+        <item>2008</item>
+        <item>2018</item>
+        <item>2003</item>
+        <item>2015</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2018</item>
+        <item>1999</item>
+        <item>1996</item>
+        <item>2007</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>1993</item>
+        <item>2023</item>
+        <item>2009</item>
+        <item>2013</item>
+        <item>2003</item>
+        <item>2024</item>
+
+    </string-array>
+
+    <string-array name="movie_genres">
+        <item>Animation, Action, Adventure</item>
+        <item>Action, Adventure, Comedy</item>
+        <item>Action, Adventure, Drama</item>
+        <item>Action, Crime, Drama</item>
+        <item>Animation, Action, Adventure</item>
+        <item>Action, Adventure, Drama</item>
+        <item>Animation, Adventure, Comedy</item>
+        <item>Action, Drama, Sci-Fi</item>
+        <item>Comedy</item>
+        <item>Action, Adventure, Sci-Fi</item>
+        <item>Action, Sci-Fi</item>
+        <item>Action, Adventure, Thriller</item>
+        <item>Action, Adventure, Sci-Fi</item>
+        <item>Action, Drama</item>
+        <item>Animation, Adventure</item>
+        <item>Action, Adventure, Sci-Fi</item>
+        <item>Adventure, Drama, Sci-Fi</item>
+        <item>Animation, Adventure, Comedy</item>
+        <item>Animation, Action</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Adventure</item>
+    </string-array>
+
+    <string-array name="movie_imdb_ids">
+        <item>tt0441773</item> <!-- Kung Fu Panda -->
+        <item>tt1431045</item> <!-- Deadpool and Wolverine -->
+        <item>tt0172495</item> <!-- Gladiator -->
+        <item>tt0468569</item> <!-- The Dark Knight -->
+        <item>tt4633694</item> <!-- Spider-Man: Into the Spider-Verse -->
+        <item>tt0167260</item> <!-- The Lord of the Rings: The Return of the King -->
+        <item>tt2096673</item> <!-- Inside Out -->
+        <item>tt0433035</item> <!-- Real Steel -->
+        <item>tt1375670</item> <!-- Grown Ups -->
+        <item>tt4154756</item> <!-- Avengers: Infinity War -->
+        <item>tt0133093</item> <!-- The Matrix -->
+        <item>tt0117060</item> <!-- Mission: Impossible -->
+        <item>tt0418279</item> <!-- Transformers -->
+        <item>tt1745960</item> <!-- Top Gun: Maverick -->
+        <item>tt0107299</item> <!-- Cars -->
+        <item>tt0107290</item> <!-- Jurassic Park -->
+        <item>tt15239678</item> <!-- Dune: Part Two -->
+        <item>tt1049413</item> <!-- Up -->
+        <item>tt1049412</item> <!-- Pacific Rim -->
+        <item>tt1049413</item> <!-- Tomb Raider -->
+        <item>tt1092121</item>
+    </string-array>
+
+    <string-array name="movie_booleans">
+        <item>false</item>
+        <item>false</item>  <!-- Deadpool and Wolverine -->
+        <item>false</item> <!-- Gladiator -->
+        <item>true</item>  <!-- The Dark Knight -->
+        <item>true</item> <!-- Spider-Man: Into the Spider-Verse -->
+        <item>false</item>  <!-- The Lord of the Rings: The Return of the King -->
+        <item>true</item> <!-- Inside Out -->
+        <item>true</item>  <!-- Real Steel -->
+        <item>false</item> <!-- Grown Ups -->
+        <item>true</item>  <!-- Avengers: Infinity War -->
+        <item>false</item> <!-- The Matrix -->
+        <item>false</item>  <!-- Mission: Impossible -->
+        <item>false</item> <!-- Transformers -->
+        <item>true</item>  <!-- Top Gun: Maverick -->
+        <item>true</item> <!-- Cars -->
+        <item>true</item>  <!-- Jurassic Park -->
+        <item>true</item> <!-- Dune: Part Two -->
+        <item>false</item>  <!-- Up -->
+        <item>true</item> <!-- Pacific Rim -->
+        <item>false</item> <!-- Tomb Raider -->
+        <item>true</item>
+    </string-array>
+
+
+    <string-array name="movie_poster">
+        <!-- Kung Fu Panda -->
+        <item>https://149367133.v2.pressablecdn.com/wp-content/uploads/2024/02/Kung-Fu-Panda-4_character-posters-20240212.jpg</item>
+
+        <!-- Deadpool and Wolverine -->
+        <item>https://cdn.shopify.com/s/files/1/0057/3728/3618/files/deadpool-wolverine_ifqe5dtr_500x749.jpg?v=1715286528</item>
+
+        <!-- Gladiator -->
+        <item>https://www.moxiecinema.com/uploads/films/_cover/Gladiator-poster.jpg</item>
+
+        <!-- The Dark Knight -->
+        <item>https://cdn.shopify.com/s/files/1/0057/3728/3618/files/darkknight.building.24x36_20e90057-f673-4cc3-9ce7-7b0d3eeb7d83_500x749.jpg?v=1707491191</item>
+
+        <!-- Spider-Man -->
+        <item>https://img.yts.gy/xxrz/250x400/339/36/48/3648dca4831c487896bd2193c43e98e2/3648dca4831c487896bd2193c43e98e2.jpg</item>
+
+        <!-- The Lord of the Rings -->
+        <item>https://img.yts.gy/xxrz/250x400/339/06/d5/06d5a29c758764d7725c2b4b015980bc/06d5a29c758764d7725c2b4b015980bc.jpg</item>
+
+        <!-- Inside Out -->
+        <item>https://upload.wikimedia.org/wikipedia/en/f/f7/Inside_Out_2_poster.jpg</item>
+
+        <!-- Real Steel -->
+        <item>https://img.yts.gy/xxrz/250x400/339/ca/61/ca61cebaacc926e0b3df1c395a6d85d2/ca61cebaacc926e0b3df1c395a6d85d2.jpg</item>
+
+        <!-- Grown Ups -->
+        <item>https://img.yts.gy/xxrz/250x400/339/cb/06/cb06a95ec2a149dfdf6e439b3903d8c3/cb06a95ec2a149dfdf6e439b3903d8c3.jpg</item>
+
+        <!-- Avengers: Infinity War -->
+        <item>https://www.movieposters.com/cdn/shop/products/INFINITY-WAR-LEGAL_480x.progressive.jpg?v=1666272866</item>
+
+        <!-- The Matrix -->
+        <item>https://img.yts.gy/xxrz/250x400/339/e5/10/e510db60b0ea7b6584ee972b466cc212/e510db60b0ea7b6584ee972b466cc212.jpg</item>
+
+        <!-- Mission: Impossible -->
+        <item>https://img.yts.gy/xxrz/250x400/339/e5/a0/e5a02d6b78afd13554c6737c1da83cae/e5a02d6b78afd13554c6737c1da83cae.jpg</item>
+
+        <!-- Transformers -->
+        <item>https://cdn.mos.cms.futurecdn.net/8BsmG8avbLMv8aZJ4MwQ53-1200-80.jpg</item>
+
+        <!-- Top Gun: Maverick -->
+        <item>https://img.yts.gy/xxrz/250x400/339/8c/76/8c76f7ba1f8d85c3c260b7347e1e64cc/8c76f7ba1f8d85c3c260b7347e1e64cc.jpg</item>
+
+        <!-- Cars -->
+        <item>https://lumiere-a.akamaihd.net/v1/images/p_cars3_19643_3ab8aca1.jpeg</item>
+
+        <!-- Jurassic Park -->
+        <item>https://img.yts.gy/xxrz/250x400/339/0b/32/0b325554c1bce38fbfbff53c96335765/0b325554c1bce38fbfbff53c96335765.jpg</item>
+
+        <!-- Dune: Part Two -->
+        <item>https://img.yts.gy/xxrz/250x400/339/1b/2e/1b2e7f907e0eabd02ddca00c9a3ca2a4/1b2e7f907e0eabd02ddca00c9a3ca2a4.jpg</item>
+
+        <!-- Up -->
+        <item>https://img.yts.gy/xxrz/250x400/339/6e/9d/6e9d568f67aeb5853bc76760463477dc/6e9d568f67aeb5853bc76760463477dc.jpg</item>
+
+        <!-- Pacific Rim -->
+        <item>https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9360990_p_v12_at.jpg</item>
+
+        <!-- Tomb Raider -->
+        <item>https://resizing.flixster.com/0srUF-ubNYRawXG135DQYMMj3_M=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27735_p_v13_ab.jpg</item>
+        <item>https://scontent-yyz1-1.xx.fbcdn.net/v/t39.30808-6/438171207_1095510494870324_3732592959309621419_n.jpg?stp=dst-jpg_p960x960&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=833d8c&amp;_nc_ohc=AB_yG1oq6r0Q7kNvgGuWD66&amp;_nc_ht=scontent-yyz1-1.xx&amp;oh=00_AYAccTfpZB79wzeTGpwP0ci4YnExTGjDlzpGeyikQbpT2g&amp;oe=66A02FFC</item>
+    </string-array>
+
+    <string-array name="movie_genres_indiv">
+        <item>All</item>
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Crime</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+    </string-array>
+
+    <string-array name="movie_trailers">
+        <!-- Kung Fu Panda -->
+        <item>https://www.youtube.com/watch?v=PXi3Mv6KMzY</item>
+
+        <!-- Deadpool and Wolverine -->
+        <item>https://www.youtube.com/watch?v=73_1biulkYk</item>
+
+        <!-- Gladiator -->
+        <item>https://www.youtube.com/watch?v=owK1qxDselE</item>
+
+        <!-- The Dark Knight -->
+        <item>https://www.youtube.com/watch?v=EXeTwQWrcwY</item>
+
+        <!-- Spider-Man -->
+        <item>https://www.youtube.com/watch?v=g4Hbz2jLxvQ</item>
+
+        <!-- The Lord of the Rings -->
+        <item>https://www.youtube.com/watch?v=Pki6jbSbXIY</item>
+
+        <!-- Inside Out -->
+        <item>https://www.youtube.com/watch?v=seMwpP0yeu4</item>
+
+        <!-- Real Steel -->
+        <item>https://www.youtube.com/watch?v=GxkJq9nSoBs</item>
+
+        <!-- Grown Ups -->
+        <item>https://www.youtube.com/watch?v=e01NVCveGkg</item>
+
+        <!-- Avengers: Infinity War -->
+        <item>https://www.youtube.com/watch?v=6ZfuNTqbHE8</item>
+
+        <!-- The Matrix -->
+        <item>https://www.youtube.com/watch?v=m8e-FF8MsqU</item>
+
+        <!-- Mission: Impossible -->
+        <item>https://www.youtube.com/watch?v=avz06PDqDbM</item>
+
+        <!-- Transformers -->
+        <item>https://www.youtube.com/watch?v=itnqEauWQZM</item>
+
+        <!-- Top Gun: Maverick -->
+        <item>https://www.youtube.com/watch?v=g4U4BQW9OEk</item>
+
+        <!-- Cars -->
+        <item>https://www.youtube.com/watch?v=SbXIj2T-_uk</item>
+
+        <!-- Jurassic Park -->
+        <item>https://www.youtube.com/watch?v=lc0UehYemQA</item>
+
+        <!-- Dune: Part Two -->
+        <item>https://www.youtube.com/watch?v=Way9Dexny3w</item>
+
+        <!-- Up -->
+        <item>https://www.youtube.com/watch?v=pkqzFUhGPJg</item>
+
+        <!-- Pacific Rim -->
+        <item>https://www.youtube.com/watch?v=5guMumPFBag</item>
+
+        <!-- Tomb Raider -->
+        <item>https://www.youtube.com/watch?v=8ndhidEmUbI</item>
+        <item>https://www.youtube.com/watch?v=WRGE4-xL0j8</item>
+    </string-array>
+
+</resources>

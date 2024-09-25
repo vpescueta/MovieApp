@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sandy_nude"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/rl_home"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/ruby_red">
+
+<!--        <EditText-->
+<!--            android:id="@+id/et_home_search"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:hint="@string/et_home_hint_search"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginStart="30dp"-->
+<!--            android:paddingLeft="25dp"-->
+<!--            android:paddingRight="25dp"-->
+<!--            android:drawableRight="@drawable/baseline_search_24"-->
+<!--            android:background="@drawable/white_bg"-->
+<!--            android:inputType="textShortMessage"-->
+<!--            android:textColorHint="#1C1A1A"/>-->
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_search_movie"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/white_bg"
+            android:inputType="textShortMessage"
+            android:textColorHint="#1C1A1A"
+            android:hint="@string/et_home_hint_search"
+            android:drawableEnd="@drawable/baseline_search_24"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_home_featured_movies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="@string/tv_home_featured_movies"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_featured"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_home_movie_listing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:drawableEnd="@drawable/baseline_filter_list_24"
+            android:drawablePadding="8dp"
+            android:focusable="true"
+            android:minHeight="48dp"
+            android:text="@string/tv_home_movie_list"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_movie_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabtn_home_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/tangerine_orange"
+            android:contentDescription="@string/fab_home_add_movie"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
