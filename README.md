@@ -1,7 +1,7 @@
 ###### Purpose:
 Mobile application to display list of movie, its description and a sample trailer
 
-Functionality:
+Functionalities:
 + Display list of movies
 + Search movie
 + View movie details
